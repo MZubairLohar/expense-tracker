@@ -25,6 +25,11 @@
 }
 .form-container input{
   width: 100%;
+
+}
+
+.heading1{
+  text-align: center;
 }
 .add-button{
   margin-left: 4px;
@@ -49,4 +54,7 @@
 .transition-list > li{
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  padding: 1px 2px;
+  margin: 1px 1px;
 }

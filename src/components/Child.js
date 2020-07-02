@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react';
+import {TransactionContext} from './transContxt';
+
 
 function Child() {
+
+    let transactions = useContext(TransactionContext);
     return (
         <div className="App">
             <h1  className= "title">Expense Tracker</h1>
@@ -11,23 +15,20 @@ function Child() {
                 <h4>Expense <br/> $250 </h4>
             </div>
             <div>
-                <h4>History</h4>
+                <h4 className="heading1">History</h4>
                 <hr />
                 <ul className="transition-list">
-                    <li>
-                        <span>Cash</span>
-                        <span>+$500</span>
-                    </li>
-                    <li>
-                        <span>Book</span>
-                        <span>-$50</span>
-                    </li>
-                    <li>
-                        <span>Keyboard</span>
-                        <span>-$200</span>
-                    </li>
+                  {transactions.map((transObj,ind) =>{
+                      return(
+                        <li>
+                        <span>{transObj.decs}</span>
+                      <span>{transObj.amount}</span>
+                    </li>      
+                      )
+                  })}
+
                 </ul>
-                <h4>Add new transaction</h4>
+                <h4 className="heading1">Add new transaction</h4>
                 <hr />
                 <form className= "form-container">
                     <label>

@@ -1,5 +1,6 @@
 import React from 'react';
-import Child from './components/Child'
+import Child from './components/Child';
+// import TransContxt from './components/TransContxt'
 
 
 import './App.css';
