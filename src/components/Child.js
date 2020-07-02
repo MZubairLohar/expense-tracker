@@ -13,18 +13,33 @@ function Child() {
             <div>
                 <h4>History</h4>
                 <hr />
+                <ul className="transition-list">
+                    <li>
+                        <span>Cash</span>
+                        <span>+$500</span>
+                    </li>
+                    <li>
+                        <span>Book</span>
+                        <span>-$50</span>
+                    </li>
+                    <li>
+                        <span>Keyboard</span>
+                        <span>-$200</span>
+                    </li>
+                </ul>
                 <h4>Add new transaction</h4>
                 <hr />
                 <form className= "form-container">
                     <label>
                         Enter text.. <br />
-                        <input type="text" />
+                        <input type="text" required/>
                     </label> 
                     <br />
                     <label>
                         Enter amount.. <br />
-                        <input type="number" />
+                        <input type="number" required/>
                     </label>
+                    <br />
                     <br />
                     <input type="submit" value="Add transaction" className="add-button" />
                 </form>

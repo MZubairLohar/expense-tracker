@@ -4,7 +4,7 @@
  margin: 0 auto;
  background-color: lightgray;
  opacity: 0.8;
- margin-top: 200px;
+ margin-top: 100px;
  box-shadow: 0 0 4px grey;
  padding: 15px 50px;
   
@@ -28,4 +28,25 @@
 }
 .add-button{
   margin-left: 4px;
+  background-color: #ee4035;
+  height: 30px;
+  font-size: medium;
+  font-weight: bolder;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.add-button:hover{
+  opacity: 0.5;
+}
+
+.transition-list{
+  margin: 0;
+  padding: 0;
+}
+.transition-list > li{
+  display: flex;
+  justify-content: space-between;
 }

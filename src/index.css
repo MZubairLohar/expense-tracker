@@ -18,4 +18,6 @@ code {
 .shape{
   background-image: url(../src/img/backgroundmap.png);
 }
-
+.bottom{
+  text-align: center;
+}
