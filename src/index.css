@@ -5,10 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/World_map_%28Miller_cylindrical_projection%2C_blank%29.svg/1280px-World_map_%28Miller_cylindrical_projection%2C_blank%29.svg.png);
+  background-image: url(../src/img/backgroundmap.png);
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
