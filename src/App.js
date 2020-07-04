@@ -14,6 +14,7 @@ function App() {
      <Header />
      <hr />
      <Balance />
+     <hr />
      <AccountSummery />
      <hr />
      <TransactionHistory />
