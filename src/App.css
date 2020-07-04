@@ -41,7 +41,7 @@
  }
  .form-container{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
    padding: 1px 2px;
    margin: 1px 1px;
@@ -57,7 +57,7 @@
  }
  .form-container-1{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
    padding: 1px 2px;
    margin: 1px 1px;
