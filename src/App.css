@@ -1,60 +1,130 @@
 .App {
- max-width: 400px;
- min-height: 450px;
- margin: 0 auto;
- background-color: lightgray;
- opacity: 0.8;
- margin-top: 100px;
- box-shadow: 0 0 4px grey;
- padding: 15px 50px;
-  
+  max-width: 400px;
+  min-height: 450px;
+  margin: 0 auto;
+  background-color: lightgray;
+  opacity: 0.8;
+  margin-top: 100px;
+  box-shadow: 0 0 4px grey;
+  padding: 15px 50px;
+   
+  }
+ .title{
+   color: #03396c;
+   text-align: center;
+ 
  }
-.title{
-  color: #03396c;
-  text-align: center;
-
-}
-.block1{
-  text-align: center;
-  
-}
-.expense-counter{
+ .block1{
+   text-align: center;
+   
+ }
+ .account-summery{
   display: flex;
   justify-content: space-around;
   background-color:white;
+  justify-content: space-around;
+  padding: 1px;
+  margin: 20px 0;
+  box-shadow: var(--box-shadow);
 }
-.form-container input{
-  width: 100%;
-
+.money-plus{
+  color: green;
 }
-
-.heading1{
-  text-align: center;
-}
-.add-button{
-  margin-left: 4px;
-  background-color: #ee4035;
-  height: 30px;
-  font-size: medium;
-  font-weight: bolder;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 6px;
-  box-shadow: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-.add-button:hover{
-  opacity: 0.5;
+.money-minus{
+  color: #ee4035;
 }
 
-.transition-list{
-  margin: 0;
-  padding: 0;
+ .expense-counter{
+   display: flex;
+   justify-content: space-around;
+   background-color:white;
+ }
+ .form-container{
+   display: flex;
+   justify-content: space-between;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   padding: 1px 2px;
+   margin: 1px 1px;
+ }
+ .form-container input{
+ margin-left: 5px;
+ margin-right: 1px;
+ height: 20px;
+ width: 200px;
+ padding: 2px;
+ 
+
+ }
+ .form-container-1{
+   display: flex;
+   justify-content: space-between;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   padding: 1px 2px;
+   margin: 1px 1px;
+ 
+ 
+  }
+  .form-container-1 input{
+    margin-left: 28px;
+    margin-right: 1px;
+    height: 20px;
+    width: 200px;
+    padding: 2px;
+    margin-top: 3px;
+   
+    }
+ 
+ .heading1{
+   text-align: center;
+ }
+ .add-button{
+   margin-left: 32%;
+   margin-top: 6px;
+   background-color: #ee4035;
+   height: 25px;
+   font-size: medium;
+   font-weight: bolder;
+   display: inline-block;
+   cursor: pointer;
+   border-radius: 6px;
+   box-shadow: 5px;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .add-button:hover{
+   opacity: 0.5;
+ }
+ 
+ .transition-list{
+   margin: 0;
+   padding: 0;
+ }
+ .transition-list > li{
+   display: flex;
+   justify-content: space-around;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   padding: 1px 2px;
+   margin: 3px 1px;
+ }
+ .transition-list:hover > li{
+  background-color: green;
 }
-.transition-list > li{
-  display: flex;
-  justify-content: space-between;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  padding: 1px 2px;
-  margin: 1px 1px;
-}
+
+ 
+ .list1:hover{
+  background-color: green;
+
+ }
+ .delete-btn{
+  border-radius: 40%;
+  opacity: 0;
+  margin-left: 0; 
+ }
+ .delete-btn:hover{
+   background-color: red;
+   opacity: 0.5;
+   margin-left: 0; 
+ }
+ .list2:hover{
+  background-color: red;
+  
+ }

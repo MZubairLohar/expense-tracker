@@ -1,15 +1,27 @@
 import React from 'react';
-import Child from './components/Child';
-// import TransContxt from './components/TransContxt'
-
-
 import './App.css';
+import {Header} from './components/Header';
+import {Balance} from './components/Balance';
+import { AccountSummery } from './components/AccountSummery';
+import {TransactionHistory} from './components/TransactionHistory';
+import {AddTransaction} from './components/AddTransaction';
+import {GlobalProvider} from './context/GlobalState';
 
 function App() {
   return (
-    <div >
-        <Child />
-    </div>
+    <GlobalProvider>
+      <div className="App">
+     <Header />
+     <hr />
+     <Balance />
+     <AccountSummery />
+     <hr />
+     <TransactionHistory />
+      <br />
+     <hr />
+     <AddTransaction />
+     </div>
+    </GlobalProvider>
   );
 }
 
