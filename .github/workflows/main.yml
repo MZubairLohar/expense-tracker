@@ -38,4 +38,4 @@ jobs:
       
     # deploying on surge
     - name: Deploying Surge
-      run: surge ./build http://test-pokemon-app.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build http://expensetracker-courcis.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
