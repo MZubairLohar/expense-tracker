@@ -37,7 +37,7 @@ export const AddTransaction = () => {
                  </div>
                  <div className="form-container-1">
                         <label htmlFor='transactionAmount'>
-                                Amount
+                                  Amount       
                                 </label>
                                 <input 
                                 type="number" 
